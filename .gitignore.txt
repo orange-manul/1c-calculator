@@ -1,0 +1,7 @@
+1Cv8.1CD
+1Cv8.cdn
+1Cv8.lst
+1Cv8Log/
+Dynamicl/
+*.tmp
+*.log

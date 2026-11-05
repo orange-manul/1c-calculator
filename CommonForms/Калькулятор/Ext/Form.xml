@@ -1,0 +1,219 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<Form xmlns="http://v8.1c.ru/8.3/xcf/logform" xmlns:app="http://v8.1c.ru/8.2/managed-application/core" xmlns:cfg="http://v8.1c.ru/8.1/data/enterprise/current-config" xmlns:dcscor="http://v8.1c.ru/8.1/data-composition-system/core" xmlns:dcssch="http://v8.1c.ru/8.1/data-composition-system/schema" xmlns:dcsset="http://v8.1c.ru/8.1/data-composition-system/settings" xmlns:ent="http://v8.1c.ru/8.1/data/enterprise" xmlns:lf="http://v8.1c.ru/8.2/managed-application/logform" xmlns:style="http://v8.1c.ru/8.1/data/ui/style" xmlns:sys="http://v8.1c.ru/8.1/data/ui/fonts/system" xmlns:v8="http://v8.1c.ru/8.1/data/core" xmlns:v8ui="http://v8.1c.ru/8.1/data/ui" xmlns:web="http://v8.1c.ru/8.1/data/ui/colors/web" xmlns:win="http://v8.1c.ru/8.1/data/ui/colors/windows" xmlns:xr="http://v8.1c.ru/8.3/xcf/readable" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="2.20">
+	<AutoCommandBar name="ФормаКоманднаяПанель" id="-1"/>
+	<ChildItems>
+		<UsualGroup name="Группа1" id="25">
+			<ExtendedTooltip name="Группа1РасширеннаяПодсказка" id="26"/>
+			<ChildItems>
+				<UsualGroup name="Числа" id="23">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>Числа</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<Representation>None</Representation>
+					<ExtendedTooltip name="ЧислаРасширеннаяПодсказка" id="24"/>
+					<ChildItems>
+						<InputField name="ПервоеЧисло" id="6">
+							<DataPath>ПервоеЧисло</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ПервоеЧислоКонтекстноеМеню" id="7"/>
+							<ExtendedTooltip name="ПервоеЧислоРасширеннаяПодсказка" id="8"/>
+						</InputField>
+						<InputField name="ВтороеЧисло" id="3">
+							<DataPath>ВтороеЧисло</DataPath>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="ВтороеЧислоКонтекстноеМеню" id="4"/>
+							<ExtendedTooltip name="ВтороеЧислоРасширеннаяПодсказка" id="5"/>
+						</InputField>
+						<InputField name="Результат" id="27">
+							<DataPath>Результат</DataPath>
+							<ReadOnly>true</ReadOnly>
+							<TitleLocation>Top</TitleLocation>
+							<ExtendedEditMultipleValues>true</ExtendedEditMultipleValues>
+							<ContextMenu name="РезультатКонтекстноеМеню" id="28"/>
+							<ExtendedTooltip name="РезультатРасширеннаяПодсказка" id="29"/>
+						</InputField>
+					</ChildItems>
+				</UsualGroup>
+				<UsualGroup name="МД" id="13">
+					<ToolTip>
+						<v8:item>
+							<v8:lang>ru</v8:lang>
+							<v8:content>МД</v8:content>
+						</v8:item>
+					</ToolTip>
+					<Group>Vertical</Group>
+					<ExtendedTooltip name="МДРасширеннаяПодсказка" id="14"/>
+					<ChildItems>
+						<Button name="Сложение" id="15">
+							<Type>UsualButton</Type>
+							<Representation>Text</Representation>
+							<CommandName>Form.Command.Сложение</CommandName>
+							<BackColor>#6CFF21</BackColor>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>+</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="СложениеРасширеннаяПодсказка" id="16"/>
+						</Button>
+						<Button name="Вычитание" id="17">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Вычитание</CommandName>
+							<BackColor>#6CFF21</BackColor>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>-</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ВычитаниеРасширеннаяПодсказка" id="18"/>
+						</Button>
+						<Button name="Умножение" id="19">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Умножение</CommandName>
+							<BackColor>#6CFF21</BackColor>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>*</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="УмножениеРасширеннаяПодсказка" id="20"/>
+						</Button>
+						<Button name="Деление" id="21">
+							<Type>UsualButton</Type>
+							<CommandName>Form.Command.Деление</CommandName>
+							<BackColor>#6CFF21</BackColor>
+							<Title>
+								<v8:item>
+									<v8:lang>ru</v8:lang>
+									<v8:content>/</v8:content>
+								</v8:item>
+							</Title>
+							<ExtendedTooltip name="ДелениеРасширеннаяПодсказка" id="22"/>
+						</Button>
+					</ChildItems>
+				</UsualGroup>
+			</ChildItems>
+		</UsualGroup>
+	</ChildItems>
+	<Attributes>
+		<Attribute name="ПервоеЧисло" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение 1</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="ВтороеЧисло" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Значение 2</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+		<Attribute name="Результат" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Результат</v8:content>
+				</v8:item>
+			</Title>
+			<Type>
+				<v8:Type>xs:decimal</v8:Type>
+				<v8:NumberQualifiers>
+					<v8:Digits>10</v8:Digits>
+					<v8:FractionDigits>0</v8:FractionDigits>
+					<v8:AllowedSign>Any</v8:AllowedSign>
+				</v8:NumberQualifiers>
+			</Type>
+		</Attribute>
+	</Attributes>
+	<Commands>
+		<Command name="Сложение" id="1">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сложение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Сложение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Сложение</Action>
+		</Command>
+		<Command name="Вычитание" id="2">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычитание</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Вычитание</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Вычитание</Action>
+		</Command>
+		<Command name="Деление" id="3">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Деление</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Деление</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Деление</Action>
+		</Command>
+		<Command name="Умножение" id="4">
+			<Title>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Умножение</v8:content>
+				</v8:item>
+			</Title>
+			<ToolTip>
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Умножение</v8:content>
+				</v8:item>
+			</ToolTip>
+			<Action>Умножение</Action>
+		</Command>
+	</Commands>
+</Form>
